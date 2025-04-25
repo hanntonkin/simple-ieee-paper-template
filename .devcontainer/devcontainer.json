@@ -1,0 +1,15 @@
+// credit to https://github.com/sanjib-sen/WebLaTex
+{
+	"name": "latex",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "root", // Do not change this
+	"features": {},
+	"customizations": {
+		"settings": {},
+		"extensions": [
+			"james-yu.latex-workshop"
+		]
+	}
+}
